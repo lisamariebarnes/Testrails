@@ -1,0 +1,283 @@
+// Custom bootstrap variables must be set or imported *before* bootstrap.
+@import "bootstrap";
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+@import url(https://fonts.googleapis.com/css?family=Teko:700);
+@import url(https://fonts.googleapis.com/css?family=Raleway:500);
+@import url(https://fonts.googleapis.com/css?family=Teko:700);
+@import url(https://fonts.googleapis.com/css?family=Tangerine);
+@import url(https://fonts.googleapis.com/css?family=Krub);
+@import url(https://fonts.googleapis.com/css?family=IndieFlower);
+@import url(https://fonts.googleapis.com/css?family=Anton);
+@import url(https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple);
+@import url(https://fonts.googleapis.com/css?family=Work+Sans);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500);
+@import url(https://fonts.googleapis.com/css?family=Poppins:500);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,200,300,800);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+@import url(https://fonts.googleapis.com/css?family=Dosis:300,400);
+
+
+.nav-link
+{
+    font-family: 'Poppins:400,700', Roboto, sans-serif;
+    position: static;
+    display: inline-block;
+    overflow: hidden;
+    margin: 10px;
+    min-width: 100px;
+    max-width: 410px;
+    width: 100%;
+    border: 10px solid #ff84ff;
+    background-color: #ff84ff;
+    color: #000000;
+    text-align: center;
+    font-size: 25px;
+    box-shadow: 0 0 15px rgba(58, 29, 29, 0.15);
+    -webkit-clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+  }
+  .navbar-brand {
+    font-family: 'Teko', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    line-height: 10px;
+    box-shadow: none !important;
+    position: relative;
+    padding: 20px;
+    border: 10px solid #ff84ff;
+    -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    box-sizing: border-box;
+}
+
+  .lead {
+    font-family: 'IndieFlower', Raleway, sans-serif;
+    display: inline-grid;
+    margin: 10px;
+    min-width: 250px;
+    max-width: 500px;
+    width: 100%;
+    color: #0f0f0f;
+    text-align: center;
+    font-size: 20px;
+    box-shadow: navajowhite;
+    position: relative;
+    padding: 15px;
+    border: 5px solid #000000;
+    -webkit-clip-path: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
+  .btn-dark {
+     background-color: #dc3545;
+        border-color: #343a40;
+    font-family: 'Teko', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 10px;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    line-height: 27px;
+  box-shadow: none !important;
+  position: relative;
+padding: 15px;
+border: 2px solid #acb90d;
+-webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+}
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000000;
+    text-align: center;
+}
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #ffd2ff;
+    border-radius: 0.3rem;
+        border-top-left-radius: 0.3rem;
+        border-top-right-radius: 0.3rem;
+        border-bottom-right-radius: 0.3rem;
+        border-bottom-left-radius: 0.3rem;
+        top: 0;
+}
+.btn-outline-success {
+    color: #f0e9fc;
+    background-color: transparent;
+    background-image: none;
+    border-color: #e2a5ec;
+}
+.font-effect-shadow-multiple {
+    text-shadow: .04em .04em 0 #fff,.08em .08em 0 #aaa;
+}
+.snip1485 {
+    font-family: 'Work Sans', Arial, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+  .snip1485 *,
+  .snip1485 *:after {
+    box-sizing: border-box;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+  }
+  .snip1485 li {
+    display: inline-block;
+    list-style: outside none none;
+    margin: 0.5em 0.6em;
+    -webkit-perspective: 50em;
+    perspective: 50em;
+  }
+  .snip1485 a {
+    backface-visibility: hidden;
+    color: #ffffff;
+    display: block;
+    line-height: 2.2em;
+    padding: 0 1.4em;
+    position: relative;
+    text-decoration: none;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    background-color: #800000;
+    -webkit-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+  }
+  .snip1485 a:after {
+    background-color: #5c122e;
+    color: transparent;
+    content: attr(data-hover);
+    bottom: 100%;
+    line-height: 2.2em;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    -webkit-transform: translateY(0%) rotateX(90deg);
+    transform: translateY(0%) rotateX(90deg);
+    -webkit-transform-origin: 50% 100%;
+    -ms-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+  }
+  .snip1485 li:hover a,
+  .snip1485 li.current a {
+    -webkit-transform: translateY(50%) rotateX(-90deg);
+    transform: translateY(50%) rotateX(-90deg);
+    background-color: #f5f8f8;
+    color: transparent;
+  }
+  .snip1485 li:hover a:after,
+  .snip1485 li.current a:after {
+    background-color: #ffbfff;
+    color: #ffffff;
+    cursor: pointer;
+  }
+ 
+  body {
+    background-color: #ffffff;
+    padding: 10px 0;
+  }
+
+.navbar-collapse{
+    background-color: #000000
+}
+.nav.navbar-expand {
+    background-color: #000000
+}
+.bg-dark {
+    background-color: #000000 !important;
+}
+a {
+    color: #ff84ff;
+    text-decoration: none;
+    background-color: transparent;
+}
+.snip1547 {
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: 17.5px;
+    font-weight: 500;
+    line-height: 48px;
+    margin: 15px 30px;
+    outline: none;
+    padding: 0 43px 0 0;
+    position: relative;
+    text-transform: uppercase;
+  }
+  
+  .snip1547 span {
+    background-color: #c72544;
+    border-radius: 5px 0 0 5px;
+    padding: 10px 20px;
+    -webkit-transition: all 0.15s ease-in;
+    transition: all 0.15s ease-in;
+  }
+  
+  .snip1547:after {
+    font-family: FontAwesome;
+    content: "\f0da";
+    background-color: #c72544;
+    position: absolute;
+    right: 0%;
+    height: 48px;
+    padding: 1px 20px;
+    top: 0;
+    border-radius: 0 5px 5px 0;
+    -webkit-transition: all 0.15s ease-in;
+    transition: all 0.15s ease-in;
+  }
+  
+  .snip1547:hover span,
+  .snip1547.hover span {
+    background-color: #ba2340;
+  }
+  
+  .snip1547:hover:after,
+  .snip1547.hover:after {
+    margin-top: -5px;
+    background-color: #da3655;
+    box-shadow: -5px 10px 20px rgba(0, 0, 0, 0.5);
+  }
+
+  
+  body {
+    background-color: #ffffff;
+    padding: 5px 0;
+    text-align: center;
+  }
+ 
+
+.typewriter h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+} 
